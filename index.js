@@ -6,9 +6,9 @@ do {
   i++
 
   if (randomNum < newNum) {
-    console.log(`⚠️! your number`, newNum, `is too big    >>>>\n`);
+    console.log(`⚠️ your number`, newNum, `is too big   ! >>>>\n`);
   } else if (randomNum > newNum) {
-    console.log(`⚠️! your number`, newNum, `is too small  <<<<\n`);
+    console.log(`⚠️ your number`, newNum, `is too small ! <<<<\n`);
   }
 } while (randomNum != newNum);
 console.log(`\nCongrats 👑! the number was exact`, randomNum, `& you tried`, i, `times`);
